@@ -1,3 +1,5 @@
+'use strict';
+
 // return을 사용하면 함수가 끝난다
 // return 뒤에는 실행되지 않는다.
 function getGrade(score) {
