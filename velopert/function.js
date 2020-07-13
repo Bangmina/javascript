@@ -22,3 +22,14 @@ function getGrade(score) {
 
 const grade = getGrade(69);
 console.log(grade);
+
+// 화살표 함수
+//
+const add = (a,b) => a + b;
+const sum = add(1,2);
+console.log(sum) // 3
+//
+const hello = (name) => {
+    console.log(`hello, ${name}!`)
+}
+hello('velopert');
