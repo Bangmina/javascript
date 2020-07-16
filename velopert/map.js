@@ -62,3 +62,20 @@ console.log(index);
 
 const tasksNotDone = todos.filter(todo => todo.done);
 console.log(tasksNotDone)
+
+// 배열내장함수 splice, slice
+//splice
+// const numbers = [10, 20, 30, 40];
+// const del = numbers.indexOf(30);
+// const spliced = numbers.splice(del, 2);
+// console.log(spliced)
+// console.log(numbers)
+
+// slice
+const numbers = [10, 20, 30, 40];
+const sliced = numbers.slice(0,2);
+console.log(`slice : ${sliced}`);
+console.log(`numbers : ${numbers}`);
+
+// slice 기존의 배열을 건들이지 않음
+// splice 기존의 배열을 수정함
