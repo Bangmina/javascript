@@ -1,4 +1,5 @@
 'use strict';
+'use strict';
 // 배열
 const object = [
     {name:' 멍멍이'},
